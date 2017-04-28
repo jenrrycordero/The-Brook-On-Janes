@@ -1,0 +1,209 @@
+@media (max-width: 1010px) {
+  #primary-menu {
+    display: none;
+  }
+
+  #site-contacts {
+    display: none;
+  }
+
+  .menu-main-menu-container #primary-menu {
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 70px;
+    width: 100%;
+  }
+  .menu-main-menu-container #primary-menu li {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  .menu-main-menu-container #primary-menu li > a {
+    color: #27292D;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .toggled .menu-toggle {
+    color: #FFFFFF;
+  }
+  .toggled .menu-toggle .fa.fa-bars::before {
+    content: "\f00d";
+  }
+  .toggled #primary-menu {
+    display: block;
+  }
+  .toggled #site-contacts {
+    display: inline-block !important;
+    float: none;
+    left: 0;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+
+  .site-header {
+    background-color: #27292D;
+    height: 70px;
+  }
+  .site-header .header-wrapper {
+    padding: 25px 0;
+    width: 100%;
+  }
+  .site-header .site-branding {
+    display: block !important;
+    float: left;
+    margin-left: 25px;
+  }
+
+  .site-header.toggled {
+    background-color: #FFB545;
+  }
+  .site-header.toggled .site-branding {
+    display: none !important;
+  }
+  .site-header.toggled .mobile-call {
+    bottom: 15px;
+    display: block !important;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+  }
+  .site-header.toggled .mobile-call > a {
+    color: #F68F1F;
+    font-size: 15px;
+  }
+
+  #razz-model-wrapper-container .item {
+    width: 50%;
+  }
+}
+@media (max-width: 960px) {
+  .site-section .col-md-6 {
+    min-height: 500px;
+  }
+
+  .gallery-page ul.isotope-gallery li {
+    padding: 5px;
+    width: 50%;
+  }
+
+  #template-neighborhood .col-md-6 .column-wrapper-left {
+    padding: 0 50px 0 0;
+  }
+
+  #template-neighborhood .col-md-6 .column-wrapper-right {
+    padding: 0 0 0 50px;
+  }
+
+  #home-gallery .col-md-6 .column-wrapper-right {
+    padding: 20px 30px;
+  }
+}
+@media (max-width: 770px) {
+  #main-banner .welcome-post {
+    width: 100%;
+  }
+
+  .site-section .col-md-6 {
+    min-height: 500px;
+    padding: 50px 0;
+  }
+  .site-section .column-wrapper {
+    position: static !important;
+    text-align: center;
+    max-width: 100%;
+  }
+  .site-section .column-wrapper p {
+    padding: 35px 0;
+  }
+  .site-section .column-wrapper-left {
+    float: none;
+    padding: 30px 60px;
+  }
+  .site-section .column-wrapper-right {
+    float: none;
+    padding: 30px 60px;
+  }
+
+  #home-floor-plans .col-md-6 .column-wrapper-left {
+    padding: 30px 80px;
+  }
+
+  #home-gallery .col-md-6 .column-wrapper-right {
+    padding: 30px 60px;
+  }
+  #home-gallery .col-md-6:last-child {
+    min-height: unset;
+    padding: 0 0 50px;
+  }
+
+  #home-neighborhood .col-md-6 .column-wrapper-right {
+    padding: 30px 60px;
+  }
+
+  #home-contact #contact-form-wrapper {
+    box-shadow: none;
+    width: 100%;
+  }
+
+  #home-reviews {
+    max-height: unset;
+  }
+
+  footer .col-xs-12 {
+    padding: 25px 0;
+    text-align: center !important;
+  }
+  footer .col-xs-12:last-child > div {
+    padding: 10px 0;
+  }
+  footer .copyright .col-xs-12 {
+    padding: 10px 0;
+  }
+  footer .copyright .right .terms {
+    display: block;
+    padding: 10px 0;
+  }
+}
+@media (max-width: 765px) {
+  #template-neighborhood .col-md-6 .column-wrapper {
+    padding: 0 50px !important;
+  }
+
+  #template-neighborhood .col-md-6:last-child {
+    border: none;
+  }
+}
+@media (max-width: 700px) {
+  .the-brook-theme #page-header-title-wrapper .container {
+    padding: 0;
+  }
+  .the-brook-theme #page-header-title-wrapper .welcome-post {
+    padding: 70px 15px 80px;
+    width: 100%;
+  }
+}
+@media (max-width: 610px) {
+  #razz-model-wrapper-container .item {
+    margin: 0;
+    width: 100%;
+  }
+
+  #contact-form-wrapper {
+    padding: 40px 15px;
+    width: 100%;
+  }
+}
+@media (max-width: 560px) {
+  #home-contact #contact-form-wrapper {
+    padding: 40px 20px;
+  }
+}

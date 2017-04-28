@@ -1,0 +1,264 @@
+/*
+ * Exclusive for theme style overriding only.
+ */
+
+.home.the-brook-theme .parallax-header {
+	min-height: 640px;
+}
+
+ .home.the-brook-theme .parallax-header .wrap-parallax {
+ 	padding: 120px 0;
+ }
+
+ .single .site-content {
+ 	position: relative;
+ 	padding-top: 66px;
+ 	z-index: 10;
+ }
+
+ .single #general-background {
+ 	display: none !important;
+ }
+
+ .single .content-area {
+    position: relative;
+    background-color: #f9f9f9;
+    max-width: 1100px;
+    padding: 0 50px 75px;
+    margin: 0 auto 60px;
+ }
+
+ .single .content-area:after {
+ 	content: "";
+ 	display: block;
+	background-color: #f9f9f9;
+	position: absolute;
+	bottom: -60px;
+	left: 0;
+	width: 50%;
+	height: 60px;
+ }
+
+ .single .content-area img {
+ 	max-width: 100%;
+ }
+
+ .single .post-meta {
+ 	position: relative;
+ 	padding: 50px 50px 60px;
+ }
+
+ .post-meta .category,
+ .post-meta .author-date {
+ 	color: #a40221;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 11.5px;
+	font-weight: normal;
+	line-height: 1;
+	margin: 0 0 7.5px;
+	text-transform: uppercase;
+ }
+
+ .post-meta .author-date {
+ 	color: #c3c3c3;
+ 	margin-bottom: 0;
+ }
+
+.post-meta .title {
+	color: #132a4e;
+    font-family: "GothamMedium", sans-serif;
+    font-size: 31px;
+    font-weight: bold;
+    margin: 20px 0 0;
+    line-height: 1;
+}
+
+.post-meta .subtitle {
+	color: #a40221;
+    font-family: "baskerville-urw", serif;
+    font-size: 21px;
+    font-weight: normal;
+    margin: 35px 0 15px;
+    line-height: 1;
+}
+
+.share-post {
+	position: absolute;
+	top: 70px;
+	right: 50px;
+	text-align: right;
+}
+
+.share-post .stButton .stLarge {
+	height: 35px;
+	width: 35px;
+	visibility: hidden;
+}
+
+.share-post .share-icon {
+	position: relative;
+	color: #132a4e;
+	display: inline-block;
+	font-family: 'FontAwesome';
+    font-size: 17px;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    line-height: 25px;
+	text-align: center;
+	text-decoration: none !important;
+	-webkit-transition: all 0.35s;
+	transition: all 0.35s;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	vertical-align: middle;
+}
+
+.share-post .share-icon:hover {
+	color: #a40221;
+}
+
+.share-post .share-icons > .share-icon:first-child {
+	margin-left: 0;
+}
+
+.share-post .share-icon:before {
+	position: relative;
+	z-index: 2;
+}
+
+.share-post .share-icon > span {
+	position: absolute;
+	top: 0;
+	left: -1px;
+	height: 25px;
+	width: 25px;
+	margin: 0;
+	z-index: 3;
+}
+
+.single .content-area .post-content {
+	padding: 80px 50px 70px;
+}
+
+.single .content-area .post-content p {
+	color: #474647;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 2;
+	margin-top: 35px;
+	margin-bottom: 0;
+}
+
+.single .content-area .post-content ul {
+	margin: 30px 0;
+	padding-left: 40px;
+}
+
+.single .content-area .post-content li {
+	color: #474647;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 2;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.single .content-area .post-content a {
+	color: #a40221;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	letter-spacing: normal;
+}
+
+.single .content-area .post-content p:first-child {
+	margin-top: 0;
+}
+
+.single .back-wrapper {
+	text-align: center;
+}
+
+.partner_logo {
+	margin-bottom: 0;
+}
+
+.overlay-address {
+	margin: 15px 0;
+}
+
+ @media (max-width: 769px) {
+ 	body.the-brook-theme .site-header .header-wrapper {
+ 		padding: 37.5px 0 !important;
+ 	}
+
+ 	.the-brook-theme .site-header .button_container {
+	    top: 27px;
+	    left: 15px;
+ 	}
+
+ 	#menu_btn_text {
+	    left: 45px;
+	    top: 28px;
+ 	}
+
+	.site-header .nav-wrapper {
+		display: none !important;
+	}
+
+ 	#site-contacts {
+ 		line-height: 1;
+ 	}
+
+ 	body.the-brook-theme .site-header .header-wrapper {
+ 		padding: 25px 0;
+ 	}
+
+	.home.the-brook-theme .parallax-header {
+		min-height: 480px;
+	}
+
+ 	.home.the-brook-theme .parallax-header .wrap-parallax {
+ 		padding: 60px 0;
+ 	}
+
+	.single .site-content {
+		padding-top: 75px;
+	}
+
+	.single .post-meta,
+	.single .content-area .post-content {
+		padding: 40px 30px;
+	}
+
+	.share-post {
+		top: 40px;
+		right: 30px;
+	}
+
+ 	.single .content-area {
+		padding: 0 0 30px;
+		margin-bottom: 30px;
+ 	}
+
+ 	.single .content-area:after {
+ 		bottom: -30px;
+ 		height: 30px;
+ 	}
+}
+
+@media (max-width: 640px) {
+	.share-post {
+		position: static;
+		text-align: left;
+		margin: 30px 0 0 -6px;
+	}
+}
+
+.gallery-image p, .gallery-item p{
+	line-height: 0 !important;
+	margin: 0 !important;
+}

@@ -1,0 +1,1 @@
+devmode=0\nsassdir=theme-assets/sass\nsassfile=theme-style.scss\ncssdir=../../uploads/theme-style.css\nvarfilename=../../uploads/_theme-settings.scss\n

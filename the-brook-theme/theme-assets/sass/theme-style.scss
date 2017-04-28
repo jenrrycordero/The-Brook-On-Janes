@@ -1,0 +1,11 @@
+
+@import "../../../../uploads/theme-settings";
+// Theme Colors
+$primaryColor: $s_primary_color;
+$secondaryColor: $s_secondary_color;
+$tertiaryColor:  $s_tertiary_color;
+$defaultColor: $s_default_color;
+
+@import "modules/general";
+@import "modules/main";
+@import "modules/media";
